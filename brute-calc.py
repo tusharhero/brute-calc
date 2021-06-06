@@ -1,20 +1,17 @@
-print("brute-calc v0.02")
+print("brute-calc v0.03")
 #made bt Tushar Maharana
 
-#asking for the length of the keyword and converting it to integer
-length = input("enter the length of the keyword:")
-length = int(length)
+#asking for the length of the keyword as integer
+length = int(input("enter the length of the keyword:"))
 
-#asking for the number of characters in character set and converting it to integer
-n_chars_in_charset = input("enter the number of characters in character set:")
-n_chars_in_charset = int(n_chars_in_charset)
+#asking for the number of characters in character set as integer
+n_chars_in_charset = int(input("enter the number of characters in character set:"))
 
 #calculating number of keywords
 n_key = n_chars_in_charset ** length
 
-#asking for the speed of bruteforce in k/s and converting it to float
-speed_brute = input("enter the speed of Bruteforce in k/s:")
-speed_brute = float(speed_brute)
+#asking for the speed of bruteforce in k/s as float
+speed_brute = float(input("enter the speed of Bruteforce in k/s:"))
 
 #calculating the time required
 
